@@ -12,15 +12,15 @@ function Footer() {
                   <House size={22} />
                   <p className="text-xs font-medium  ">Principal</p>
                </Link>
-               <Link href="/transacciones" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
+               <Link href="/transactions" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <ReceiptText size={22} />
                   <p className="text-xs font-medium  ">Transacciones</p>
                </Link>
-               <Link href="/gastos" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
+               <Link href="/spending" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <CreditCard size={22} />
                   <p className="text-xs font-medium  ">Gastos</p>
                </Link>
-               <Link href="/ahorrado" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
+               <Link href="/saving" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <PiggyBank size={22} />
                   <p className="text-xs font-medium  ">Ahorrado</p>
                </Link>

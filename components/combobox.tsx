@@ -1,6 +1,6 @@
 "use client"
 
-import { Check, ChevronsUpDown } from "lucide-react"
+import { Check, ChevronDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
@@ -19,19 +19,19 @@ function Combobox({ textSelected, list }: ComboboxProps) {
                variant="outline"
                role="combobox"
                aria-expanded={open}
-               className="w-[200px] justify-between"
+               className={cn("w-[200px] justify-between", !value && "text-muted-foreground")}
             >
                {value
                   ? list.find((item) => item.value === value)?.label
                   : textSelected}
-               <ChevronsUpDown className="opacity-50" />
+               <ChevronDown className="opacity-50" />
             </Button>
          </PopoverTrigger>
          <PopoverContent className="w-[200px] p-0">
             <Command>
-               <CommandInput placeholder="Search framework..." />
+               <CommandInput placeholder="Buscar opción..." />
                <CommandList>
-                  <CommandEmpty>No framework found.</CommandEmpty>
+                  <CommandEmpty>Opción no encontrada</CommandEmpty>
                   <CommandGroup>
                      {list.map((item) => (
                         <CommandItem
@@ -59,7 +59,7 @@ function Combobox({ textSelected, list }: ComboboxProps) {
    )
 }
 
-interface ICombobox {
+export interface ICombobox {
    value: string;
    label: string;
 }

@@ -1,7 +1,7 @@
 import CategoryCard from "@/components/home/cards/category-card"
 import TotalAmountCard from "@/components/home/cards/total-amount-card";
 import SubtitleSection from "@/components/subtitle-section";
-import SubtitleLinkSection from "@/components/subtitle-section copy";
+import SubtitleLinkSection from "@/components/subtitle-link-section";
 import TitleSection from "@/components/title-section"
 import { categoriesData } from "@/data/categories";
 import { totalAmountsData } from "@/data/total_amounts";
