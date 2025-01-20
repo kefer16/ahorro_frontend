@@ -22,7 +22,7 @@ function Footer() {
                </Link>
                <Link href="/saving" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <PiggyBank size={22} />
-                  <p className="text-xs font-medium  ">Ahorrado</p>
+                  <p className="text-xs font-medium  ">Ahorros</p>
                </Link>
                <Link href="/configuration" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <Settings size={22} />
