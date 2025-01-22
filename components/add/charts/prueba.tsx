@@ -20,19 +20,19 @@ import {
 
 
 interface Idata {
-   week: "Enero" | "February" | "March" | "April";
-   desktop: number;
+   week: "Sn01" | "February" | "March" | "April";
+   amount: number;
 }
 const chartData: Idata[] = [
-   { week: "Enero", desktop: 186 },
-   { week: "February", desktop: 305 },
-   { week: "March", desktop: 237 },
-   { week: "April", desktop: 73 }
+   { week: "Sn01", amount: 186 },
+   { week: "February", amount: 305 },
+   { week: "March", amount: 237 },
+   { week: "April", amount: 73 }
 ]
 
 const chartConfig: ChartConfig = {
-   desktop: {
-      label: "Desktop",
+   amount: {
+      label: "Monto",
       color: "hsl(var(--chart-1))",
    },
 }
@@ -41,8 +41,8 @@ export function Prueba() {
    return (
       <Card>
          <CardHeader>
-            <CardTitle>Line Chart - Label</CardTitle>
-            <CardDescription>January - June 2024</CardDescription>
+            <CardTitle>dsds</CardTitle>
+            <CardDescription>dsds</CardDescription>
          </CardHeader>
          <CardContent>
             <ChartContainer config={chartConfig}>
@@ -68,12 +68,12 @@ export function Prueba() {
                      content={<ChartTooltipContent indicator="line" />}
                   />
                   <Line
-                     dataKey="desktop"
+                     dataKey="amount"
                      type="natural"
-                     stroke="var(--color-desktop)"
+                     stroke="var(--color-amount)"
                      strokeWidth={2}
                      dot={{
-                        fill: "var(--color-desktop)",
+                        fill: "var(--color-amount)",
                      }}
                      activeDot={{
                         r: 6,

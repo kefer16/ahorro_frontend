@@ -1,4 +1,4 @@
-import { CreditCard, House, PiggyBank, ReceiptText, Settings } from "lucide-react"
+import { ChartPie, House, Plus, ReceiptText, Settings } from "lucide-react"
 import Link from "next/link"
 import { Separator } from "../ui/separator"
 
@@ -16,13 +16,13 @@ function Footer() {
                   <ReceiptText size={22} />
                   <p className="text-xs font-medium  ">Transacciones</p>
                </Link>
-               <Link href="/spending" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
-                  <CreditCard size={22} />
-                  <p className="text-xs font-medium  ">Gastos</p>
+               <Link href="/add" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
+                  <Plus size={22} />
+                  <p className="text-xs font-medium  ">Agregar</p>
                </Link>
-               <Link href="/saving" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
-                  <PiggyBank size={22} />
-                  <p className="text-xs font-medium  ">Ahorros</p>
+               <Link href="/spending" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
+                  <ChartPie size={22} />
+                  <p className="text-xs font-medium  ">Gráficos</p>
                </Link>
                <Link href="/configuration" className="just flex flex-1 flex-col items-center justify-end gap-1 text-muted-foreground">
                   <Settings size={22} />

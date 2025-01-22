@@ -24,10 +24,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
 
             },
@@ -45,10 +45,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -65,10 +65,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -85,10 +85,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -105,10 +105,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -125,10 +125,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -145,10 +145,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -165,10 +165,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -185,10 +185,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -205,10 +205,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -225,10 +225,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             },
             {
@@ -245,10 +245,10 @@ export const spendingYearsData: SavingYear[] =
                }
                ,
                chartData: [
-                  { week: "sem1", amount: 400 },
-                  { week: "sem2", amount: 200 },
-                  { week: "sem3", amount: 300 },
-                  { week: "sem4", amount: 50 },
+                  { week: "S1", amount: 400 },
+                  { week: "S2", amount: 200 },
+                  { week: "S3", amount: 300 },
+                  { week: "S4", amount: 50 },
                ]
             }
          ]

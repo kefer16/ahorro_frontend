@@ -2,20 +2,8 @@
 
 import { TrendingDown } from "lucide-react"
 import { CartesianGrid, LabelList, Line, LineChart, XAxis } from "recharts"
-import {
-   Card,
-   CardContent,
-   CardDescription,
-   CardFooter,
-   CardHeader,
-   CardTitle,
-} from "@/components/ui/card"
-import {
-   ChartConfig,
-   ChartContainer,
-   ChartTooltip,
-   ChartTooltipContent,
-} from "@/components/ui/chart"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 
 function SpendingChart({ cardTitle, cardDescription, footerTitle, footerDescription, chartData, chartConfig }: SpendingChartProps) {
    return (
@@ -82,7 +70,7 @@ function SpendingChart({ cardTitle, cardDescription, footerTitle, footerDescript
 }
 
 export interface amountWeek {
-   week: "sem1" | "sem2" | "sem3" | "sem4";
+   week: "S1" | "S2" | "S3" | "S4";
    amount: number;
 }
 
