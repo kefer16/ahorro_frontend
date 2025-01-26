@@ -14,7 +14,7 @@ function CategoryCard({ name, year, symbol, amount, totalAmount, primaryCategory
                <p className=" text-base font-medium ">{`${percent.toFixed(2)} %`}</p>
                <p className=" text-sm font-normal ">{`${symbol} ${totalAmount.toFixed(2)}`}</p>
             </div>
-            <div className="rounded bg-gray-500/20"><div className="h-2 rounded bg-primary" style={{ width: `${percent}%` }}></div></div>
+            <div className="rounded bg-gray-300/50"><div className="h-2 rounded bg-primary" style={{ width: `${percent}%` }}></div></div>
             <p className="text-muted-foreground text-sm font-normal ">{primaryCategory}</p>
          </div>
       </div>

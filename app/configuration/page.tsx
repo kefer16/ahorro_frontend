@@ -1,7 +1,6 @@
-import ConfigurationSection from '@/sections/configuration'
-import React from 'react'
+import ConfigurationSection from '@/sections/configuration/configuration'
 
-function ProfilePage() {
+function ConfigurationPage() {
    return (
       <>
          <ConfigurationSection />
@@ -9,4 +8,4 @@ function ProfilePage() {
    )
 }
 
-export default ProfilePage
+export default ConfigurationPage
