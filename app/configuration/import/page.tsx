@@ -1,6 +1,8 @@
+import ImportSection from "@/sections/configuration/import";
+
 function ImportPage() {
    return (
-      <div>Importar</div>
+      <ImportSection />
    )
 }
 

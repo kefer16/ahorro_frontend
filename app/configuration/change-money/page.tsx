@@ -1,7 +1,8 @@
+import ChangeMoneySection from "@/sections/configuration/change-money"
 
 function ChangeMoneyPage() {
    return (
-      <div>Moneda</div>
+      <ChangeMoneySection />
    )
 }
 
