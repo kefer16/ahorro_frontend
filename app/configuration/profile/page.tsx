@@ -1,4 +1,4 @@
-import ProfileSection from '@/sections/configuration/profile/profile'
+import ProfileSection from '@/sections/configuration/profile'
 import React from 'react'
 
 function ProfilePage() {

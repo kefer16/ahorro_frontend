@@ -1,7 +1,6 @@
 import SubtitleSection from "@/components/subtitle-section"
 import TitleSection from "@/components/title-section"
 import { Button } from "@/components/ui/button"
-import { Label } from "@/components/ui/label"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
 
 function ChangeMoneySection() {

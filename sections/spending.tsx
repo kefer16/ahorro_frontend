@@ -10,7 +10,7 @@ function SpendingSection() {
       <div className="py-4 flex flex-col gap-4">
          <TitleSection title="Gastos" />
          <SubtitleSection title="Año" />
-         <Combobox textSelected="Select. Año" list={[{ label: "2025", value: "2025" }, { label: "2024", value: "2024" }]} />
+         <Combobox textPlaceholder="Select. Año" textTitleList="" list={[{ label: "2025", value: "2025" }, { label: "2024", value: "2024" }]} />
          <SubtitleSection title="Meses" />
          <div className="grid gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
             {

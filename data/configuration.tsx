@@ -1,4 +1,4 @@
-import { DollarSign, Home, Import, Lock, LogOut, Palette, UserRound } from "lucide-react";
+import { Home, Import, Lock, LogOut, Palette, UserRound } from "lucide-react";
 import { ReactElement } from "react";
 
 interface IConfiguration {
@@ -34,10 +34,10 @@ export const configurationData: IConfiguration[] =
       },
       {
          isDanger: false,
-         link: "change-money",
-         title: "Moneda",
-         description: "Cambiar la moneda en la que quiere visualizar sus transacciones",
-         icon: <DollarSign size={22} className="text-muted-foreground" />
+         link: "change-theme",
+         title: "Tema",
+         description: "Cambiar a su tema preferido",
+         icon: <Palette size={22} className="text-muted-foreground" />
       },
       {
          isDanger: false,
@@ -45,13 +45,6 @@ export const configurationData: IConfiguration[] =
          title: "Contraseña",
          description: "Fortalezca su cuenta asegurándose de que su contraseña sea segura",
          icon: <Lock size={22} className="text-muted-foreground" />
-      },
-      {
-         isDanger: false,
-         link: "change-theme",
-         title: "Tema",
-         description: "Cambiar a su tema preferido",
-         icon: <Palette size={22} className="text-muted-foreground" />
       },
       {
          isDanger: true,

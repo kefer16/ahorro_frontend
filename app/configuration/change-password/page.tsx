@@ -1,6 +1,8 @@
+import ChangePasswordSection from "@/sections/configuration/change-password";
+
 function ChangePasswordPage() {
    return (
-      <div>Contraseña</div>
+      <ChangePasswordSection />
    )
 }
 

@@ -12,6 +12,14 @@ function HomeSection() {
    return (
       <div className="py-4 flex flex-col gap-4">
          <TitleSection title="Principal" />
+         <SubtitleLinkSection title="Cuenta saldo" link="#" linkText="Agregar más" />
+         <TotalAmountCard
+            name="Cuenta SOLES"
+            colorCard="bg-yellow-600/20 border-yellow-600/40"
+            colorText="text-yellow-600"
+            symbol="S/."
+            amount={2000}
+         />
          <SubtitleSection title="Hace 3 meses" />
          <div className="grid grid-cols-3 gap-2">
             {

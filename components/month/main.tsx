@@ -13,7 +13,7 @@ function Main() {
                <p className="text-muted-foreground text-sm">Total de movimientos son 7</p>
             </div>
             <div className="flex gap-2">
-               <Combobox textSelected="Elija el estado" list={[{ label: "Ingreso", value: "in" }, { label: "Salida", value: "sa" }]} />
+               <Combobox textPlaceholder="Elija año" textTitleList="" list={[{ label: "Ingreso", value: "in" }, { label: "Salida", value: "sa" }]} />
                <Input id="import" type="file" />
             </div>
          </div>

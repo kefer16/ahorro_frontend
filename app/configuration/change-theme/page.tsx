@@ -1,6 +1,8 @@
+import ChangeThemeSection from "@/sections/configuration/change-theme";
+
 function ChangeThemePage() {
    return (
-      <div>Tema</div>
+      <ChangeThemeSection />
    )
 }
 
