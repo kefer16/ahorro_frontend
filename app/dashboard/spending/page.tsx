@@ -1,4 +1,4 @@
-import SpendingSection from "@/sections/spending";
+import SpendingSection from "@/sections/dashboard/spending";
 
 function SpendingPage() {
    return (

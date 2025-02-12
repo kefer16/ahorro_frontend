@@ -1,4 +1,4 @@
-import ChangePasswordSection from "@/sections/configuration/change-password";
+import ChangePasswordSection from "@/sections/dashboard/configuration/change-password";
 
 function ChangePasswordPage() {
    return (

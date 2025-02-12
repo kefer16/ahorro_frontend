@@ -1,10 +1,10 @@
 "use client"
 
-import HomeSection from "@/sections/home"
+import WelcomeSection from "@/sections/welcome"
 
 function Home() {
    return (
-      <HomeSection />
+      <WelcomeSection />
    )
 }
 export default Home

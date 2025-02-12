@@ -1,4 +1,4 @@
-import ImportSection from "@/sections/configuration/import";
+import ImportSection from "@/sections/dashboard/configuration/import";
 
 function ImportPage() {
    return (

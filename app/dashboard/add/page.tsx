@@ -1,4 +1,4 @@
-import AddSection from "@/sections/add";
+import AddSection from "@/sections/dashboard/add";
 
 function SavePage() {
    return (

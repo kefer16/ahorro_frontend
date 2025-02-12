@@ -7,7 +7,7 @@ function ConfigurationCard({ isDanger, icon, link, title, description }: Configu
       <>
          {
             isDanger ?
-               <Link href={`/configuration/${link}`} className="flex justify-between items-center rounded-xl border bg-red-500/10 border-red-500/30 p-4">
+               <Link href="../login" className="flex justify-between items-center rounded-xl border bg-red-500/10 border-red-500/30 p-4">
                   <div className="flex gap-4 items-center w-full">
                      <div className="flex justify-center items-center w-[30px]">
                         {icon}
@@ -22,7 +22,7 @@ function ConfigurationCard({ isDanger, icon, link, title, description }: Configu
                   </div>
                </Link>
                :
-               <Link href={`/configuration/${link}`} className="flex justify-between gap-4 items-center rounded-xl border bg-card p-4">
+               <Link href={`/dashboard/configuration/${link}`} className="flex justify-between gap-4 items-center rounded-xl border bg-card p-4">
                   <div className="flex gap-4 items-center w-full">
                      <div className="flex justify-center items-center w-[30px]">
                         {icon}

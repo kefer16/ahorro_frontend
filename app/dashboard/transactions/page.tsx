@@ -1,4 +1,4 @@
-import TransactionSection from "@/sections/transaction";
+import TransactionSection from "@/sections/dashboard/transaction";
 
 function TransactionsPage() {
    return (

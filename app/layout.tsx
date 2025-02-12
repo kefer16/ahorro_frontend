@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-providers";
-import Navbar from "@/components/navbar/navbar";
-import Footer from "@/components/footer/footer";
 
 const workSans = localFont({
    src: "./fonts/WorkSans-VariableFont_wght.ttf"
@@ -34,15 +32,7 @@ export default function RootLayout({
                enableSystem
                disableTransitionOnChange
             >
-               <Navbar />
-               <main className="relative h-screen overflow-auto ">
-                  <div className="px-4 container mx-auto lg:px-0">
-                     <div className="h-[60px]" />
-                     {children}
-                     <div className="h-[60px]" />
-                  </div>
-               </main>
-               <Footer />
+               {children}
             </ThemeProvider>
          </body>
 

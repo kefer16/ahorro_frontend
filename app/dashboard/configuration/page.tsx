@@ -1,4 +1,4 @@
-import ConfigurationSection from '@/sections/configuration/configuration'
+import ConfigurationSection from '@/sections/dashboard/configuration/configuration'
 
 function ConfigurationPage() {
    return (

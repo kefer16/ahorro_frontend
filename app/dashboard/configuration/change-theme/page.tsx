@@ -1,4 +1,4 @@
-import ChangeThemeSection from "@/sections/configuration/change-theme";
+import ChangeThemeSection from "@/sections/dashboard/configuration/change-theme";
 
 function ChangeThemePage() {
    return (

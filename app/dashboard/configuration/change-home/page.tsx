@@ -1,4 +1,4 @@
-import ChangeHomeSection from "@/sections/configuration/change-home"
+import ChangeHomeSection from "@/sections/dashboard/configuration/change-home"
 
 function ChangeHomePage() {
    return (
